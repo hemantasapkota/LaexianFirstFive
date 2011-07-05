@@ -1,13 +1,17 @@
 INTRODUCTION
-  Laexian First Five is a simple Google Chrome plugin which allows you to open many websites at once. 
+
+Laexian First Five is a simple Google Chrome plugin which allows you to open many websites at once. 
 
 INSTALLATION
-  Point the link https://github.com/downloads/hemantasapkota/LaexianFirstFive/LaexianFirstFive.crx in Google Chrome.
+
+Point the link https://github.com/downloads/hemantasapkota/LaexianFirstFive/LaexianFirstFive.crx in Google Chrome.
 
 USAGE
-  In Google Chrome, Go to Extensions -> Tools -> Extensions -> Laexian First Five 
+
+In Google Chrome, Go to Extensions -> Tools -> Extensions -> Laexian First Five 
 Clicking "Options" will open options page where you can enter the URL to your favorite websties.
-Eg:
+
+A sample list looks like this:
 www.google.com,
 www.digg.com,
 www.dzone.com
