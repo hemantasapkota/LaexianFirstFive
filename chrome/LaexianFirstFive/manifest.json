@@ -1,0 +1,15 @@
+{
+  "name": "Laexian First Five",
+  "version": "1.0",
+  "description": "Open your favorite websites in Google Chrome with a click",
+  "options_page": "options.html",
+  "icons": { "128" : "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://www.google.com/webfonts/*"
+  ]
+}

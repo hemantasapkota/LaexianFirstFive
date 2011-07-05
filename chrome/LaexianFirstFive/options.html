@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+textarea {
+  height:300px;
+}
+</style>
+<script type="text/javascript">
+var STORAGE_KEY = "firstFive";
+
+function save() {
+  var siteList = document.getElementById("siteList");
+  localStorage[STORAGE_KEY] = siteList.value;
+}
+
+window.onload = function() {
+  var txtItems = document.getElementById("siteList");
+  var savedList = localStorage.getItem(STORAGE_KEY);
+  txtItems.innerHTML = savedList;
+};
+</script>
+</head>
+<body>
+<div><label>Enter URL (do not add http://) (comma seperated)</label></div>
+<div><textarea id="siteList"> </textarea></div>
+<div><button onclick="save()">Save</button></div>
+</body>
+</html>
